@@ -1,33 +1,32 @@
-# angular-seed — the seed for AngularJS apps
+# ECSA Website - built using Angularjs
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
-projects.
+This project is rebuilding the East Campus Students' Association website using [AngularJS](http://angularjs.org/).
+This is mainly a learning sandbox for web development. Ultimately the goal is to have an
+aesthetically pleasing website hosted at www.ualberta.ca/~ecvhouse (or some more preferred url),
+that ECV residents can visit to learn about ECSA and all that it does.
 
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
+The repository contains an AngularJS application and is preconfigured to install the Angular
 framework and a bunch of development and testing tools for instant web development gratification.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together.
 
 
 ## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the angular-seed repository. You can get it from
+You need git to clone the repository. You can get it from
 [http://git-scm.com/](http://git-scm.com/).
 
-We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
+We also use a number of node.js tools to initialize and test the website locally. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
-### Clone angular-seed
+### Clone the repository
 
-Clone the angular-seed repository using [git][git]:
+Clone the repository using [git][git]:
 
 ```
-git clone https://github.com/angular/angular-seed.git
+git clone https://github.com/ECSA/website
 cd angular-seed
 ```
 

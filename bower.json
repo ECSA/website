@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "ecsa-website",
+  "description": "Rebuilding the East Campus Students' Association website using AngularJS",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/ECSA/website",
   "license": "MIT",
   "private": true,
   "dependencies": {
