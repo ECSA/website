@@ -27,7 +27,7 @@ Clone the repository using [git][git]:
 
 ```
 git clone https://github.com/ECSA/website
-cd angular-seed
+cd website
 ```
 
 ### Install Dependencies
@@ -82,8 +82,12 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
         filters.js      --> custom angular filters
         services.js     --> custom angular services
       partials/             --> angular view partials (partial html templates)
-        partial1.html
-        partial2.html
+        home.html
+        about.html
+        rentals.html
+        events.html
+        faq.html
+        contact.html
 
     test/               --> test config and source files
       protractor-conf.js    --> config file for running e2e tests with Protractor
@@ -99,11 +103,11 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
 
 ## Testing
 
-There are two kinds of tests in the angular-seed application: Unit tests and End to End tests.
+There are two kinds of tests in this application: Unit tests and End to End tests.
 
 ### Running Unit Tests
 
-The angular-seed app comes preconfigured with unit tests. These are written in
+This app comes preconfigured with unit tests. These are written in
 [Jasmine][jasmine], which we run with the [Karma Test Runner][karma]. We provide a Karma
 configuration file to run them.
 
@@ -132,7 +136,7 @@ npm run test-single-run
 
 ### End to end testing
 
-The angular-seed app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
+This angular app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
 are run with the [Protractor][protractor] End-to-End test runner.  It uses native events and has
 special features for Angular applications.
 
@@ -147,7 +151,7 @@ can interact with it.
 npm start
 ```
 
-In addition, since Protractor is built upon WebDriver we need to install this.  The angular-seed
+In addition, since Protractor is built upon WebDriver we need to install this.  This
 project comes with a predefined script to do this:
 
 ```
@@ -168,10 +172,6 @@ development server.
 
 
 ## Updating Angular
-
-Previously we recommended that you merge in changes to angular-seed into your own fork of the project.
-Now that the angular framework library code and tools are acquired through package managers (npm and
-bower) you can use these tools instead to update the dependencies.
 
 You can update the tool dependencies by running:
 
