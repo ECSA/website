@@ -73,15 +73,16 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
       css/              --> css files
         app.css         --> default stylesheet
       img/              --> image files
-      index.html        --> app layout file (the main html template file of the app)
+      index.html        --> contains all the scripts and dependancies
       index-async.html  --> just like index.html, but loads js files asynchronously
       js/               --> javascript files
-        app.js          --> application
+        app.js          --> application (specifies routing using ui-router)
         controllers.js  --> application controllers
         directives.js   --> application directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
-      partials/             --> angular view partials (partial html templates)
+      partials/         --> angular view partials (partial html templates)
+        main.html       --> main html template file of the app
         home.html
         about.html
         rentals.html

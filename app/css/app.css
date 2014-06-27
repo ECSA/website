@@ -1,1 +1,10 @@
 /* app css stylesheet */
+
+/* For Angular UI Bootstrap*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.nav {
+	width: 470px;
+	margin: 0 auto;
+	padding: 0;
+}

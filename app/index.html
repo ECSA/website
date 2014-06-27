@@ -6,8 +6,9 @@
   <meta name="description" content="Home page of the East Campus Students' Association.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content ="ECSA, ECV, UAlberta">
-  
+
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
@@ -18,14 +19,11 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/ui-bootstrap-tpls-0.11.0.js"></script>
+  <script src="js/angular-ui-router.js"></script>
+
 </head>
 <body>
-
-<div>
-  {{"Hello" + ", world!"}}
-</div>
-
-  <div ng-view></div>
-
+  <div ui-view></div>
 </body>
 </html>
