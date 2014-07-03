@@ -10,7 +10,7 @@ var ecsaApp = angular.module('ecsaApp', [
 
 ecsaApp.config(
   function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/main/home");
+    $urlRouterProvider.otherwise("/home");
   
     $stateProvider
       .state("main", { abstract: true, url:"", templateUrl:"partials/main.html" })

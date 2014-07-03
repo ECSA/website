@@ -1,8 +1,16 @@
 /* app css stylesheet */
 
-/* For Angular UI Bootstrap*/
+/* For Angular UI Bootstrap */
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+/* End Angular UI Bootstrap */
 
+body {
+	/*background-image: url("/app/img/ecsalogo.JPG");*/
+	background-size: 100px 40px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .nav {
 	width: 470px;
 	margin: 0 auto;
