@@ -81,6 +81,8 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
         directives.js   --> application directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
+        angular-ui-router.js        --> custom routing service
+        ui-bootstrap-tpls-0.11.0.js --> angular bootstrap  
       partials/         --> angular view partials (partial html templates)
         main.html       --> main html template file of the app
         home.html
