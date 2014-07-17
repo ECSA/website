@@ -11,6 +11,28 @@ ecsaControllers.controller('tabController', function($rootScope, $scope, $state)
 		$scope.active = function(route) {
 			return $state.is(route);
 		}
+                
+                $scope.executives = [{
+                        position: 'President',
+                        firstName: 'Dylan',
+                        lastName: 'Stankievech',
+                        email: 'presidentofecsa@gmail.com'    
+                }, {
+                        position: 'VP Communication',
+                        firstName: 'Cody',
+                        lastName: 'Flatla',
+                        email: 'ecsacommunication@gmail.com'
+                }, {
+                        position: 'VP Finance',
+                        firstName: 'Aoran',
+                        lastName: 'Liu',
+                        email: 'ecsafinance@gmail.com'
+                }, {
+                        position: 'VP House',
+                        firstName: 'Eric',
+                        lastName: 'Webb',
+                        email: 'ecsahouse@gmail.com'
+                }];
 
 		$scope.tabs = [{
 			heading: 'Home',
