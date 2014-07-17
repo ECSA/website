@@ -1,1 +1,9 @@
-Contact
+<div>
+    <p>ECSA Executives</p>
+    <ul class="executives">
+        <li ng-repeat="exec in executives">
+          <p>{{exec.position}}: {{exec.firstName}} {{exec.lastName}}</p>
+          <p>Email: {{exec.email}}</p>
+        </li>
+    </ul>
+</div>
