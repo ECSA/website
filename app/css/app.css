@@ -16,3 +16,10 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+
+.thumb {
+        float: left;
+        height: 100px;
+        width: 100px;
+        padding: 1em;
+}

@@ -6,32 +6,36 @@ var ecsaControllers = angular.module('ecsaControllers', []);
 ecsaControllers.controller('tabController', function($rootScope, $scope, $state) {
 		$scope.go = function(route) {
 			$state.go(route);
-		}
+		};
 
 		$scope.active = function(route) {
 			return $state.is(route);
-		}
+		};
                 
                 $scope.executives = [{
                         position: 'President',
                         firstName: 'Dylan',
                         lastName: 'Stankievech',
-                        email: 'presidentofecsa@gmail.com'    
+                        email: 'presidentofecsa@gmail.com',
+                        imageUrl: 'img/President.jpg'
                 }, {
-                        position: 'VP Communication',
+                        position: 'VP Communication', 
                         firstName: 'Cody',
                         lastName: 'Flatla',
-                        email: 'ecsacommunication@gmail.com'
+                        email: 'ecsacommunication@gmail.com',
+                        imageUrl: 'img/VPComm.jpg' 
                 }, {
-                        position: 'VP Finance',
+                        position: 'VP Finance', 
                         firstName: 'Aoran',
                         lastName: 'Liu',
-                        email: 'ecsafinance@gmail.com'
+                        email: 'ecsafinance@gmail.com',
+                        imageUrl: 'img/VPFinance.jpg' 
                 }, {
-                        position: 'VP House',
+                        position: 'VP House', 
                         firstName: 'Eric',
                         lastName: 'Webb',
-                        email: 'ecsahouse@gmail.com'
+                        email: 'ecsahouse@gmail.com',
+                        imageUrl: 'img/VPHouse.jpg' 
                 }];
 
 		$scope.tabs = [{
