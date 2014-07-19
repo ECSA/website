@@ -1,0 +1,30 @@
+[
+    {
+        "position": "President", 
+        "firstName": "Dylan",
+        "lastName": "Stankievech",
+        "email": "presidentofecsa@gmail.com",
+        "imageUrl": "img/President.jpg"
+    },
+    {
+        "position": "VP Communication", 
+        "firstName": "Cody",
+        "lastName": "Flatla",
+        "email": "ecsacommunication@gmail.com",
+        "imageUrl": "img/VPComm.jpg" 
+    },
+    {
+        "position": "VP Finance", 
+        "firstName": "Aoran",
+        "lastName": "Liu",
+        "email": "ecsafinance@gmail.com",
+        "imageUrl": "img/VPFinance.jpg" 
+    },
+    {
+        "position": "VP House", 
+        "firstName": "Eric",
+        "lastName": "Webb",
+        "email": "ecsahouse@gmail.com",
+        "imageUrl": "img/VPHouse.jpg" 
+    }
+]

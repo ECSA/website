@@ -3,6 +3,13 @@
 /* Controllers */
 var ecsaControllers = angular.module('ecsaControllers', []);
 
+ecsaControllers.controller('contactController', function($scope, $http) {
+    $http({method: 'GET', url: 'json/executives.json', headers: {'Cache-Control': 'private, no-store, max-age=0'}}).
+        success(function(data) {
+            $scope.executives = data;
+    });
+});
+
 ecsaControllers.controller('tabController', function($rootScope, $scope, $state) {
 		$scope.go = function(route) {
 			$state.go(route);
@@ -11,32 +18,6 @@ ecsaControllers.controller('tabController', function($rootScope, $scope, $state)
 		$scope.active = function(route) {
 			return $state.is(route);
 		};
-                
-                $scope.executives = [{
-                        position: 'President',
-                        firstName: 'Dylan',
-                        lastName: 'Stankievech',
-                        email: 'presidentofecsa@gmail.com',
-                        imageUrl: 'img/President.jpg'
-                }, {
-                        position: 'VP Communication', 
-                        firstName: 'Cody',
-                        lastName: 'Flatla',
-                        email: 'ecsacommunication@gmail.com',
-                        imageUrl: 'img/VPComm.jpg' 
-                }, {
-                        position: 'VP Finance', 
-                        firstName: 'Aoran',
-                        lastName: 'Liu',
-                        email: 'ecsafinance@gmail.com',
-                        imageUrl: 'img/VPFinance.jpg' 
-                }, {
-                        position: 'VP House', 
-                        firstName: 'Eric',
-                        lastName: 'Webb',
-                        email: 'ecsahouse@gmail.com',
-                        imageUrl: 'img/VPHouse.jpg' 
-                }];
 
 		$scope.tabs = [{
 			heading: 'Home',
