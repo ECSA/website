@@ -1,19 +1,13 @@
-<!-- Header Start -->
 <div ng-controller="tabController">
-	<tabset>
-		<tab ng-repeat="tab in tabs" 
-	    	heading="{{tab.heading}}" 
-	    	select="go(tab.route)"
-	    	active="tab.active">
-		</tab>
-	</tabset>
-<!-- Header End -->
-  
-<!-- Body Start -->
-	<div ui-view></div>
-<!-- Body End -->
-
-<!-- Footer Start -->
-
-<!-- Footer End -->
+    <ul id="nav">
+        <li class="current" ng-repeat="tab in tabs">
+            <a ui-sref="{{tab.route}}">{{tab.heading}}</a>
+            <ul ng-if="tab.subTabs.length > 0">
+                <li ng-repeat="subTab in tab.subTabs">
+                    <a ui-sref="{{subTab.route}}">{{subTab.heading}}</a></li>
+            </ul>
+        </li>
+    </ul>
+    
+    <div ui-view></div>
 </div>

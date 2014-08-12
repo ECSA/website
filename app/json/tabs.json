@@ -1,0 +1,81 @@
+[
+    {
+        "heading": "Home",
+        "route": "main.home",
+        "active": false
+    }, 
+    {
+        "heading": "About",
+        "route": ".about",
+        "active": false,
+        "subTabs":
+        [
+            {
+                "heading": "ECSA",
+                "route": ".aboutEcsa",
+                "active": false
+            },
+            {
+                "heading": "ECSA House",
+                "route": ".aboutHouse",
+                "active": false
+            },
+            {
+                "heading": "Volunteers",
+                "route": ".aboutVolunteers",
+                "active": false
+            },
+            {
+                "heading": "FAQ",
+                "route": ".aboutFaq",
+                "active": false
+            }
+        ]
+    },
+    {
+        "heading": "Rentals",
+        "route": ".rentals",
+        "active": false,
+        "subTabs":
+        [
+            {
+                "heading": "Items",
+                "route": ".rentalItems",
+                "active": false
+            },
+            {
+                "heading": "ECSA House",
+                "route": ".rentalHouse",
+                "active": false
+            }
+        ]
+    },
+    {
+        "heading": "Events",
+        "route": ".events",
+        "active": false
+    },
+    {
+        "heading": "Contact Us",
+        "route": ".contact",
+        "active": false,
+        "subTabs":
+        [
+            {
+                "heading": "Social Media",
+                "route": ".socialMedia",
+                "active": false
+            },
+            {
+                "heading": "Comments",
+                "route": ".comments",
+                "active": false
+            },
+            {
+                "heading": "Links",
+                "route": ".links",
+                "active": false
+            }
+        ]
+    }
+]
