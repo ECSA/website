@@ -1,13 +1,24 @@
 <div ng-controller="tabController">
-    <ul id="nav">
-        <li class="current" ng-repeat="tab in tabs">
-            <a ui-sref="{{tab.route}}">{{tab.heading}}</a>
-            <ul ng-if="tab.subTabs.length > 0">
-                <li ng-repeat="subTab in tab.subTabs">
-                    <a ui-sref="{{subTab.route}}">{{subTab.heading}}</a></li>
-            </ul>
-        </li>
-    </ul>
-    
-    <div ui-view></div>
+    <div id="header">
+        <div id="menubar_container">
+            <div id="menubar">
+                <ul id="menu">
+                    <li ng-repeat="tab in tabs">
+                        <a id="tab" ui-sref="{{tab.route}}">{{tab.heading}}</a>
+                        <ul ng-if="tab.subTabs.length > 0">
+                            <li ng-repeat="subTab in tab.subTabs">
+                                <a id="subtab" ui-sref="{{subTab.route}}">{{subTab.heading}}</a></li>
+                        </ul>
+                    </li>
+                </ul><!--close menu-->
+            </div><!--close menubar-->
+        </div><!--close menubar_container-->
+    </div>
+
+    <div id="site_content">
+        <div id="content">
+            <div id="body" ui-view></div>
+        </div>
+    </div>
+
 </div>
