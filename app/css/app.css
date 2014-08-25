@@ -70,7 +70,7 @@ a:hover {
     text-decoration: none;
 }
 
-#main, #header, #banner, #menubar, #site_content, #footer {
+#main, #header, #logo, #menubar_container, #menubar, #site_content, #footer {
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,6 +81,14 @@ a:hover {
     background: -moz-linear-gradient(#437133, #284020);
     background: -o-linear-gradient(#437133, #284020);
     background: -webkit-linear-gradient(#437133, #284020);
+}
+
+#logo {
+    width: 185px;
+    height: 90px;
+    display: block;
+    float: left;
+    margin: 5px;
 }
 
 #welcome {
@@ -102,23 +110,30 @@ a:hover {
 /* Menu start */
 #menubar_container {
     height: 100px;
+    width: 940px;
 }
 
 #menubar {
-    width: 940px;
+    width: 745px;
     height: 100px;
     padding-top: 20px;
+    float: left;
 }
 
 ul#menu {
-    /*margin-top: 20px;*/
+    margin: 15px 0 5px 0;
     padding: 10px 0;
-    width: 940px;
+    width: 745px;
+    height: 57px;
+    display: block;
     background: #437133;
     background: -moz-linear-gradient(#437133, #284020);
     background: -o-linear-gradient(#437133, #284020);
     background: -webkit-linear-gradient(#437133, #284020);
-    border-bottom: 2px solid #1D2D17;
+    border-bottom: 3px solid #1D2D17;
+    border-left: 1px solid #1D2D17;
+    border-right: 1px solid #1D2D17;
+    border-top: 1px solid #1D2D17;
     border-radius: 30px 0px 30px 0px;
     -moz-border-radius: 30px 0px 30px 0px;
     -webkit-border: 30px 0px 30px 0px;
