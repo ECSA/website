@@ -1,7 +1,7 @@
 <div ng-controller="tabController">
     <div id="header">
         <div id="menubar_container">
-            <img id="logo" ng-src="/app/img/ecsa_logo.png">
+            <a ui-sref=".home"><img id="logo" ng-src="img/ecsa_logo.png" ui-sref=".home"></a>
             <div id="menubar">
                 <ul id="menu">
                     <li ng-repeat="tab in tabs">

@@ -18,6 +18,7 @@ body {
     color: #000;
     text-shadow: 1px 1px #FFF;
     background: #FFF url(../img/background_pattern.png) repeat;
+    overflow-y: scroll;
 }
 
 p {
@@ -160,7 +161,7 @@ ul#menu li a#tab {
     background: transparent;
 }
 
-ul#menu li.current a {
+ul#menu li a.active {
     text-shadow: 1px 1px #323232;
     background: #284020;
     background: -moz-linear-gradient(#437133, #284020);

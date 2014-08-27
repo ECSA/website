@@ -2,7 +2,7 @@
     {
         "heading": "Home",
         "route": "main.home",
-        "active": false
+        "active": true
     }, 
     {
         "heading": "About",
