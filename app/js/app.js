@@ -24,7 +24,7 @@ ecsaApp.config(
       .state("main.volunteer_calendar", { url:"/volunteer_calendar", templateUrl:"partials/volunteer/volunteer_calendar.html"})
       .state("main.volunteer_application", { url:"/volunteer_application", templateUrl:"partials/volunteer/volunteer_application.html"})
       .state("main.services", { url:"/services", templateUrl:"partials/services/services.html"})
-      .state("main.rental_items", { url:"/rental_items", templateUrl:"partials/rentals/items.html"})
+      .state("main.rental_items", { url:"/rental_items", templateUrl:"partials/services/items.html"})
       .state("main.events", { url:"/events", templateUrl:"partials/events.html"})
       .state("main.contact", { url:"/contact", templateUrl:"partials/contact/contact.html"})
       .state("main.social_media", { url:"/social_media", templateUrl:"partials/contact/social_media.html"})

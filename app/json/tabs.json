@@ -42,13 +42,26 @@
         "subTabs":
         [
             {
-                "heading": "Calendar",
+                "heading": "Schedule",
                 "route": ".volunteer_calendar",
                 "active": false
             },
             {
                 "heading": "Application",
                 "route": ".volunteer_application",
+                "active": false
+            }
+        ]
+    },
+    {
+        "heading": "Services",
+        "route": ".services",
+        "active": false,
+        "subTabs":
+        [
+            {
+                "heading": "Rental Items",
+                "route": ".rental_items",
                 "active": false
             }
         ]
