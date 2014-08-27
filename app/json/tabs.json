@@ -6,46 +6,49 @@
     }, 
     {
         "heading": "About",
-        "route": ".about",
+        "route": ".about_ecsa",
         "active": false,
         "subTabs":
         [
             {
-                "heading": "ECSA",
-                "route": ".aboutEcsa",
-                "active": false
-            },
-            {
-                "heading": "ECSA House",
-                "route": ".aboutHouse",
-                "active": false
-            },
-            {
-                "heading": "Volunteers",
-                "route": ".aboutVolunteers",
-                "active": false
-            },
-            {
                 "heading": "FAQ",
-                "route": ".aboutFaq",
+                "route": ".faq",
                 "active": false
             }
         ]
     },
     {
-        "heading": "Rentals",
-        "route": ".rentals",
+        "heading": "House",
+        "route": ".house",
         "active": false,
         "subTabs":
         [
             {
-                "heading": "Items",
-                "route": ".rentalItems",
+                "heading": "Door Code",
+                "route": ".door_code",
                 "active": false
             },
             {
-                "heading": "ECSA House",
-                "route": ".rentalHouse",
+                "heading": "Book House",
+                "route": ".book_house",
+                "active": false
+            }
+        ]
+    },
+    {
+        "heading": "Volunteers",
+        "route": ".volunteers",
+        "active": false,
+        "subTabs":
+        [
+            {
+                "heading": "Calendar",
+                "route": ".volunteer_calendar",
+                "active": false
+            },
+            {
+                "heading": "Application",
+                "route": ".volunteer_application",
                 "active": false
             }
         ]
@@ -63,7 +66,7 @@
         [
             {
                 "heading": "Social Media",
-                "route": ".socialMedia",
+                "route": ".social_media",
                 "active": false
             },
             {
