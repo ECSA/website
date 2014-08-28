@@ -4,11 +4,11 @@
             <a ui-sref=".home"><img id="logo" ng-src="img/ecsa_logo.png" ui-sref=".home"></a>
             <div id="menubar">
                 <ul id="menu">
-                    <li ng-repeat="tab in tabs">
-                        <a id="tab" ui-sref="{{tab.route}}">{{tab.heading}}</a>
+                    <li ng-repeat="tab in tabs" >
+                        <a id="tab" ui-sref="{{tab.route}}" ng-class="{active: tab.active}">{{tab.heading}}</a>
                         <ul ng-if="tab.subTabs.length > 0">
                             <li ng-repeat="subTab in tab.subTabs">
-                                <a id="subtab" ui-sref="{{subTab.route}}">{{subTab.heading}}</a></li>
+                                <a id="subtab" ui-sref="{{subTab.route}}" ng-class="{active: subTab.active}">{{subTab.heading}}</a></li>
                         </ul>
                     </li>
                 </ul><!--close menu-->

@@ -2,94 +2,94 @@
     {
         "heading": "Home",
         "route": "main.home",
-        "active": true
+        "active": false
     }, 
     {
         "heading": "About",
-        "route": ".about_ecsa",
+        "route": "main.about_ecsa",
         "active": false,
         "subTabs":
         [
             {
                 "heading": "FAQ",
-                "route": ".faq",
+                "route": "main.faq",
                 "active": false
             }
         ]
     },
     {
         "heading": "House",
-        "route": ".house",
+        "route": "main.house",
         "active": false,
         "subTabs":
         [
             {
                 "heading": "Door Code",
-                "route": ".door_code",
+                "route": "main.door_code",
                 "active": false
             },
             {
                 "heading": "Book House",
-                "route": ".book_house",
+                "route": "main.book_house",
                 "active": false
             }
         ]
     },
     {
         "heading": "Volunteers",
-        "route": ".volunteers",
+        "route": "main.volunteers",
         "active": false,
         "subTabs":
         [
             {
                 "heading": "Schedule",
-                "route": ".volunteer_calendar",
+                "route": "main.volunteer_calendar",
                 "active": false
             },
             {
                 "heading": "Application",
-                "route": ".volunteer_application",
+                "route": "main.volunteer_application",
                 "active": false
             }
         ]
     },
     {
         "heading": "Services",
-        "route": ".services",
+        "route": "main.services",
         "active": false,
         "subTabs":
         [
             {
                 "heading": "Rental Items",
-                "route": ".rental_items",
+                "route": "main.rental_items",
                 "active": false
             }
         ]
     },
     {
         "heading": "Events",
-        "route": ".events",
+        "route": "main.events",
         "active": false
     },
     {
         "heading": "Contact Us",
-        "route": ".contact",
+        "route": "main.contact",
         "active": false,
         "subTabs":
         [
             {
                 "heading": "Social Media",
-                "route": ".social_media",
+                "route": "main.social_media",
                 "active": false
             },
             {
                 "heading": "Comments",
-                "route": ".comments",
+                "route": "main.comments",
                 "active": false
             },
             {
                 "heading": "Links",
-                "route": ".links",
+                "route": "main.links",
                 "active": false
             }
         ]
