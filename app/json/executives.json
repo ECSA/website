@@ -4,6 +4,7 @@
         "firstName": "Dylan",
         "lastName": "Stankievech",
         "email": "presidentofecsa@gmail.com",
+        "bio": "I am an orange. Please don't eat me.",
         "imageUrl": "img/President.jpg"
     },
     {
@@ -11,6 +12,7 @@
         "firstName": "Cody",
         "lastName": "Flatla",
         "email": "ecsacommunication@gmail.com",
+        "bio": "I am awesome.",
         "imageUrl": "img/VPComm.jpg" 
     },
     {
@@ -18,6 +20,7 @@
         "firstName": "Aoran",
         "lastName": "Liu",
         "email": "ecsafinance@gmail.com",
+        "bio": "Money, money, money.",
         "imageUrl": "img/VPFinance.jpg" 
     },
     {
@@ -25,6 +28,7 @@
         "firstName": "Eric",
         "lastName": "Webb",
         "email": "ecsahouse@gmail.com",
+        "bio": "Who lives in a pinapple under the sea.",
         "imageUrl": "img/VPHouse.jpg" 
     }
 ]

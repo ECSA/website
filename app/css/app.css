@@ -286,8 +286,15 @@ ul#menu:after {
 }
 
 .column {
-    width: 40%;
+    width: 33%;
     float: left;
+    padding: 0 20px 0 0;
+}
+
+.row {
+    width: 100%;
+    float: left;
+    margin: auto;
 }
 
 .narrow-column {
@@ -295,10 +302,10 @@ ul#menu:after {
     float: left;
 }
 
-.home-column-image {
+.home-thumb {
     width: 153px;
     height: 110px;
-    
+    padding: 5px;
 }
 
 .column ul li {
