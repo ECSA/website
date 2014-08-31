@@ -168,15 +168,15 @@ ul#menu li a#tab {
     text-decoration: none;
     margin: 0px 0 0 10px;
     padding: 5px 15px 5px 15px;
-    background: transparent;
 }
 
-ul#menu li a.active {
-    text-shadow: 1px 1px #323232;
-    background: #284020;
-    background: -moz-linear-gradient(#437133, #284020);
-    background: -o-linear-gradient(#437133, #284020);
-    background: -webkit-linear-gradient(#437133, #284020);
+ul#menu li a#tab.active {
+    color: #000;
+    text-shadow: 1px 1px #FFF;
+    background: #fbce11;
+    background: -moz-linear-gradient(#FBCE11, #95750B);
+    background: -o-linear-gradient(#FBCE11, #95750B);
+    background: -webkit-linear-gradient(#FBCE11, #95750B);
     border-radius: 15px 0px 15px 0px;
     -moz-border-radius: 15px 0px 15px 0px;
     -webkit-border: 15px 0px 15px 0px;
@@ -185,21 +185,8 @@ ul#menu li a.active {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
-ul#menu ul li a.active {
-    text-shadow: 1px 1px #323232;
-    background: #284020;
-    background: -moz-linear-gradient(#437133, #284020);
-    background: -o-linear-gradient(#437133, #284020);
-    background: -webkit-linear-gradient(#437133, #284020);
-    border-radius: 0px 15px 0px 15px;
-    -moz-border-radius: 0px 15px 0px 15px;
-    -webkit-border: 0px 15px 0px 15px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-}
-
 ul#menu li:hover a#tab {
+    color: #FFF;
     text-shadow: 1px 1px #000;
     background: #284020;
     background: -moz-linear-gradient(#284020, #437133);
@@ -248,10 +235,25 @@ ul#menu ul li a#subtab {
     text-decoration: none;
     margin: 0 2px 4px 10px;
     padding: 5px 15px 5px 15px;
-    background: transparent;
+}
+
+ul#menu ul li a#subtab.active {
+    color: #000;
+    text-shadow: 1px 1px #FFF;
+    background: #fbce11;
+    background: -moz-linear-gradient(#FBCE11, #95750B);
+    background: -o-linear-gradient(#FBCE11, #95750B);
+    background: -webkit-linear-gradient(#FBCE11, #95750B);
+    border-radius: 0px 15px 0px 15px;
+    -moz-border-radius: 0px 15px 0px 15px;
+    -webkit-border: 0px 15px 0px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 
 ul#menu ul li:hover a#subtab {
+    color: #FFF;
     text-shadow: 1px 1px #000;
     background: #284020;
     background: -moz-linear-gradient(#284020, #437133);
