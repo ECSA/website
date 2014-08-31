@@ -5,9 +5,11 @@
 /* End Angular UI Bootstrap */
 
 /* Site-wide styles start */
-html {
+html, body {
     height: 100%;
+    min-height: 100%;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +23,15 @@ body {
     overflow-y: scroll;
 }
 
+#container {
+   min-height: 100%;
+   position: relative;
+}
+
+.full-height {
+    height: 100%;
+}
+
 p {
 /*    padding: 0 0 20px 0;*/
     line-height: 1.7em;
@@ -29,6 +40,7 @@ p {
 
 img {
     border: 0;
+    padding: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,7 +83,7 @@ a:hover {
     text-decoration: none;
 }
 
-#main, #header, #logo, #menubar_container, #menubar, #site_content, #footer {
+#container, #header, #logo, #menubar_container, #menubar, #body, #footer {
     margin-left: auto;
     margin-right: auto;
 }
@@ -266,55 +278,48 @@ ul#menu:after {
 }
 /* Menu stop */
 
-#site_content {
+#body {
     width: 940px;
     overflow: hidden;
     background: transparent;
-    margin: 0 auto;
-    padding: 0 0 20px 0;
+    padding-bottom: 40px;
 }
 
-#content {
-    width: 900px;
-    margin-bottom: 20px;
-    padding-left: 20px;
+.column {
+    width: 40%;
     float: left;
 }
 
-#column1 {
-    width: 33%;
+.narrow-column {
+    width: 20%;
     float: left;
 }
 
-#column2 {
-    width: 33%;
-    float: left;
+.home-column-image {
+    width: 153px;
+    height: 110px;
+    
 }
 
-#column3 {
-    width: 33%;
-    float: left;
-}
-
-#footer_container {
-    height: 490px;
-    color: #FFF;
-    text-shadow: none;
-    background: #000;
-    border: 1px solid;
+.column ul li {
+    padding-bottom: 5px;
+    list-style: none;
 }
 
 #footer {
-    width: 960px;
-    height: 450px;
-    padding-top: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
     text-align: center;
-    background: transparent;
+    text-shadow: none;
+    color: #FFF;
+    background: #000;
 }
 
 #footer a, #footer a:hover {
     text-decoration: none;
-    padding-bottom: 20px;
     color: #FFF;
     text-shadow: none;
 }

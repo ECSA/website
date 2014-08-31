@@ -26,7 +26,7 @@ ecsaControllers.controller('tabController', function($rootScope, $scope, $state,
     };
 
     $scope.$on("$stateChangeSuccess", function() {
-	$scope.tabs.forEach(function(tab) {
+        $scope.tabs.forEach(function(tab) {
             tab.active = $scope.active(tab.route);
             if(tab.subTabs !== undefined) {
                 tab.subTabs.forEach(function(subTab) {

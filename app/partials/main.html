@@ -1,25 +1,28 @@
-<div ng-controller="tabController">
-    <div id="header">
-        <div id="menubar_container">
-            <a ui-sref=".home"><img id="logo" ng-src="img/ecsa_logo.png" ui-sref=".home"></a>
-            <div id="menubar">
-                <ul id="menu">
-                    <li ng-repeat="tab in tabs" >
-                        <a id="tab" ui-sref="{{tab.route}}" ng-class="{active: tab.active}">{{tab.heading}}</a>
-                        <ul ng-if="tab.subTabs.length > 0">
-                            <li ng-repeat="subTab in tab.subTabs">
-                                <a id="subtab" ui-sref="{{subTab.route}}" ng-class="{active: subTab.active}">{{subTab.heading}}</a></li>
-                        </ul>
-                    </li>
-                </ul><!--close menu-->
-            </div><!--close menubar-->
-        </div><!--close menubar_container-->
-    </div>
-
-    <div id="site_content">
-        <div id="content">
-            <div id="body" ui-view></div>
+<div ng-controller="tabController" class="full-height">
+    <div id="container">
+        <div id="header">
+            <div id="menubar_container">
+                <a ui-sref="main.home"><img id="logo" ng-src="img/ecsa_logo.png" ui-sref=".home"></a>
+                <div id="menubar">
+                    <ul id="menu">
+                        <li ng-repeat="tab in tabs" >
+                            <a id="tab" ui-sref="{{tab.route}}" ng-class="{active: tab.active}">{{tab.heading}}</a>
+                            <ul ng-if="tab.subTabs.length > 0">
+                                <li ng-repeat="subTab in tab.subTabs">
+                                    <a id="subtab" ui-sref="{{subTab.route}}" ng-class="{active: subTab.active}">{{subTab.heading}}</a></li>
+                            </ul>
+                        </li>
+                    </ul><!--close menu-->
+                </div><!--close menubar-->
+            </div><!--close menubar_container-->
         </div>
-    </div>
 
+        <div id="body" ui-view></div>
+    
+        <footer id="footer">
+            <div class="copyright">
+                Copyright 2014 | <a ui-sref="main.home">Home</a> | <a ui-sref="main.about">About</a> | <a ui-sref="main.house">House</a> | <a ui-sref="main.volunteers">Volunteers</a> | <a ui-sref="main.services">Services</a> | <a ui-sref="main.events">Events</a> | <a ui-sref="main.contact">Contact Us</a>
+            </div>
+        </footer>
+    </div>
 </div>

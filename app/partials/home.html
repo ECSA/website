@@ -1,39 +1,30 @@
 <h1>Welcome!</h1>
-<p>Welcome to the newly refurbished East Campus Students’ Association website.  
+<p>Welcome to the newly refurbished East Campus Students' Association website.  
     We are an association dedicated to enriching the university experience of residents. 
     Learn about everything ECSA has to offer by using the navigation bar above. 
-    We look forward to meeting you and making your stay in East Campus Village great!</p>
-<br>
+    We look forward to meeting you and making your stay in East Campus Village great!
+</p>
 
-<div id="column1">
-    <a class="twitter-timeline" href="https://twitter.com/uAlbertaECSA" data-widget-id="503662221574942720">Tweets by @uAlbertaECSA</a>
-    <script>
-        !function(d,s,id){
-            var js,
-                    fjs=d.getElementsByTagName(s)[0],
-                    p=/^http:/.test(d.location)?'http':'https';
-            if(!d.getElementById(id)){
-                js=d.createElement(s);
-                js.id=id;
-                js.src=p+"://platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js,fjs);
-            }
-        }(document,"script","twitter-wjs");
-    </script>
-
+<div class="narrow-column">
+    <img class="home-column-image" ng-src="img/ecsa-house.jpg">
+    <img class="home-column-image" ng-src="img/ecsa-walkup.jpg">
+    <img class="home-column-image" ng-src="img/ecsa-bikes.jpg">
 </div>
 
-<div id="column2">
-    <h3>Header2</h3>
+<div class="column">
+    <h3 style="margin-top: 10px">Most Popular Pages</h3>
+    <ul>
+        <li><a ui-sref="main.events">Upcoming events</a></li>
+        <li><a ui-sref="main.volunteer_calendar">Volunteer schedule</a></li>
+        <li><a ui-sref="main.services">Rentable item list</a></li>
+        <li><a ui-sref="main.door_code">Get the ECSA House door code</a></li>
+        <li><a ui-sref="main.book_house">Book ECSA House</a></li>
+        <li><a ui-sref="main.volunteer_application">Become a volunteer</a></li>
+        <li><a ui-sref="main.comments">Leave a comment</a></li>
+        <li><a ui-sref="main.faq">Frequently asked questions</a></li>
+    </ul>
 </div>
 
-<div id="column3">
-    <h3>Most Popular Pages</h3>
-    <p>Upcoming events</p>
-    <p>Volunteer hours</p>
-    <p>Rentable item list</p>
-    <p>Get the ECSA House door code</p>
-    <p>Book ECSA House</p>
-    <p>Become a volunteer</p>
-    <p>Leave a comment</p>
+<div class="column">
+    <twitter-timeline></twitter-timeline>
 </div>

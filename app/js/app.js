@@ -5,6 +5,7 @@
 var ecsaApp = angular.module('ecsaApp', [
   'ui.router',
   'ecsaControllers',
+  'ecsaDirectives',
   'ui.bootstrap'
 ]);
 
@@ -15,7 +16,7 @@ ecsaApp.config(
     $stateProvider
       .state("main", { abstract: true, url:"", templateUrl:"partials/main.html" })
       .state("main.home", { url:"/home", templateUrl:"partials/home.html"})
-      .state("main.about_ecsa", { url:"/about_ecsa", templateUrl:"partials/about/about_ecsa.html"})
+      .state("main.about", { url:"/about", templateUrl:"partials/about/about.html"})
       .state("main.faq", { url:"/faq", templateUrl:"partials/about/faq.html"})
       .state("main.house", { url:"/house", templateUrl:"partials/house/house.html"})
       .state("main.door_code", { url:"/door_code", templateUrl:"partials/house/door_code.html"})
@@ -23,8 +24,7 @@ ecsaApp.config(
       .state("main.volunteers", { url:"/volunteers", templateUrl:"partials/volunteer/volunteers.html"})
       .state("main.volunteer_calendar", { url:"/volunteer_calendar", templateUrl:"partials/volunteer/volunteer_calendar.html"})
       .state("main.volunteer_application", { url:"/volunteer_application", templateUrl:"partials/volunteer/volunteer_application.html"})
-      .state("main.services", { url:"/services", templateUrl:"partials/services/services.html"})
-      .state("main.rental_items", { url:"/rental_items", templateUrl:"partials/services/items.html"})
+      .state("main.services", { url:"/services", templateUrl:"partials/services.html"})
       .state("main.events", { url:"/events", templateUrl:"partials/events.html"})
       .state("main.contact", { url:"/contact", templateUrl:"partials/contact/contact.html"})
       .state("main.social_media", { url:"/social_media", templateUrl:"partials/contact/social_media.html"})
