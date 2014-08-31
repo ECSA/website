@@ -28,7 +28,7 @@
         "firstName": "Eric",
         "lastName": "Webb",
         "email": "ecsahouse@gmail.com",
-        "bio": "Who lives in a pinapple under the sea.",
+        "bio": "The CSS property transform is usally used for rotating and scaling elements, but with its translateY function we can now vertically align elements. Usually this must be done with absolute positioning or setting line-heights, but these require you to either know the height of the element or only works on single-line text etc.",
         "imageUrl": "img/VPHouse.jpg" 
     }
 ]

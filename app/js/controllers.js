@@ -8,6 +8,18 @@ ecsaControllers.controller('contactController', function($scope, $http) {
         success(function(data) {
             $scope.executives = data;
     });
+    
+    $scope.setCurrent = function(exec) {
+      $scope.current = exec;
+    };
+    
+    $scope.showDetails = function(current) {
+        return current !== undefined;
+    };
+    
+    $scope.isSelected = function(exec) {
+        return $scope.current === exec;
+    };
 });
 
 ecsaControllers.controller('tabController', function($rootScope, $scope, $state, $http) {

@@ -39,7 +39,7 @@ p {
 
 img {
     border: 0;
-    padding: 5px;
+    padding: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -291,15 +291,9 @@ ul#menu:after {
     padding: 0 20px 0 0;
 }
 
-.row {
+.horizontal-row {
     width: 100%;
-    float: left;
     margin: auto;
-}
-
-.narrow-column {
-    width: 20%;
-    float: left;
 }
 
 .home-thumb {
@@ -337,12 +331,49 @@ ul#menu:after {
 
 /* Site-wide styles stop */
 
-.thumb {
-    float: left;
-    height: 100px;
-    width: 100px;
-    padding: 1em;
+/* Contact Us styles start */
+.thumb-row {
+    width: 86%;
+    margin: auto;
+    height: 200px;
 }
+
+.thumb {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.selected {
+    border: 2px solid #FBCE11;
+}
+
+.exec-detail-panel {
+    display: table;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul#exec-info {
+    display: table-row;
+    list-style: none;
+    padding: 10px 10px 0 10px;
+    float: left;
+}
+
+ul#exec-content {
+    width: 92%;
+    display: table-row;
+    list-style: none;
+    float: left;
+    padding: 10px 10px 0 10px;
+    text-align: justify;
+}
+
+/* Contact Us styles end */
 
 /* FAQ styles start */
 

@@ -1,12 +1,25 @@
 <div ng-controller="contactController">
-    <p>ECSA Executives</p>
-    <ul class="executives">
-        <li ng-repeat="exec in executives" class="thumbnail">
-            <img class="thumb" ng-src="{{exec.imageUrl}}">
-            <p>{{exec.position}}</p>
-            <p>{{exec.firstName}} {{exec.lastName}}</p>
-            <p>{{exec.email}}</p>
-            <p>{{exec.bio}}</p>
+    <h1 style="text-align: center;">ECSA Executives</h1>
+    <p style="text-align: center;">Click on each of the thumbnails below to learn about that executive</p>
+    <ul class="thumb-row">
+        <li style="list-style: none;" ng-repeat="exec in executives" >
+            <a ui-sref="main.contact"><img class="thumb" ng-class="{selected: isSelected(exec)}" ng-src="{{exec.imageUrl}}" ng-click="setCurrent(exec)"></a>
         </li>
     </ul>
+    <br>
+    <div class="exec-detail-panel" ng-show="showDetails(current)">
+        <ul id="exec-info" >
+            <li>Name:</li>
+            <li>Position:</li>
+            <li>E-mail:</li>
+            <li>Bio:</li>
+        </ul>
+        
+        <ul id="exec-content">
+            <li>{{current.firstName}} {{current.lastName}}</li>
+            <li>{{current.position}}</li>
+            <li>{{current.email}}</li>
+            <li>{{current.bio}}</li>
+        </ul>
+    </div>
 </div>
