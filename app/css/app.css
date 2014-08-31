@@ -418,7 +418,6 @@ ul#menu:after {
     right: 10px;    
 }
 
-
-.white-background {
-    //background: #fff
+.indented-ul li{
+    margin-left: 3em;
 }
