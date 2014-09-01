@@ -4,7 +4,7 @@
         "firstName": "Dylan",
         "lastName": "Stankievech",
         "email": "presidentofecsa@gmail.com",
-        "bio": "I am an orange. Please don't eat me.",
+        "bio": "Hello! My name is Dylan, and I'm the ECSA President for the 2014/2015 academic year.\nI'm entering my fifth year of undergrad studying Computing Science, and have been living in ECV for the past two years. Some random things I enjoy include dodgeball, ping pong, badminton, Super Smash Bros, Guitar Hero, piano, and spicy food. Don't hesitate to contact me if you have any questions about anything!",
         "imageUrl": "img/President.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "firstName": "Aoran",
         "lastName": "Liu",
         "email": "ecsafinance@gmail.com",
-        "bio": "Money, money, money.",
+        "bio": "",
         "imageUrl": "img/VPFinance.jpg" 
     },
     {
@@ -28,7 +28,7 @@
         "firstName": "Eric",
         "lastName": "Webb",
         "email": "ecsahouse@gmail.com",
-        "bio": "The CSS property transform is usally used for rotating and scaling elements, but with its translateY function we can now vertically align elements. Usually this must be done with absolute positioning or setting line-heights, but these require you to either know the height of the element or only works on single-line text etc.",
+        "bio": "",
         "imageUrl": "img/VPHouse.jpg" 
     }
 ]
