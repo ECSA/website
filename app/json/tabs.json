@@ -78,11 +78,6 @@
                 "heading": "Comments",
                 "route": "main.comments",
                 "active": false
-            },
-            {
-                "heading": "Links",
-                "route": "main.links",
-                "active": false
             }
         ]
     }
