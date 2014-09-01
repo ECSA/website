@@ -288,11 +288,10 @@ ul#menu:after {
 .column {
     width: 33%;
     float: left;
-    padding: 0 20px 0 0;
 }
 
 .horizontal-row {
-    width: 100%;
+    width: 940px;
     margin: auto;
 }
 
