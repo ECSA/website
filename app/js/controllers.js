@@ -4,7 +4,7 @@
 var ecsaControllers = angular.module('ecsaControllers', []);
 
 ecsaControllers.controller('contactController', function($scope, $http) {
-    $http({method: 'GET', url: 'json/executives.json', headers: {'Cache-Control': 'private, no-store, max-age=0'}}).
+    $http({method: 'GET', url: 'json/executives.json'}).
         success(function(data) {
             $scope.executives = data;
     });
@@ -23,7 +23,7 @@ ecsaControllers.controller('contactController', function($scope, $http) {
 });
 
 ecsaControllers.controller('tabController', function($rootScope, $scope, $state, $http) {
-    $http({method: 'GET', url: 'json/tabs.json', headers: {'Cache-Control': 'private, no-store, max-age=0'}}).
+    $http({method: 'GET', url: 'json/tabs.json'}).
         success(function(data) {
             $scope.tabs = data;
             $rootScope.$broadcast('$stateChangeSuccess');
