@@ -18,7 +18,7 @@ html, body {
 body {
     font: normal 85% Arial, Helvetica, sans-serif;
     color: #000;
-    background: #FFF url(../img/background_pattern.png) repeat;
+    background: #FFF;
     overflow-y: scroll;
 }
 
