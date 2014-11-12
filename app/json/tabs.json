@@ -14,6 +14,11 @@
                 "heading": "FAQ",
                 "route": "main.faq",
                 "active": false
+            },
+            {
+                "heading": "Constitution",
+                "route": "main.constitution",
+                "active": false
             }
         ]
     },

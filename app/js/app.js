@@ -18,6 +18,7 @@ ecsaApp.config(
       .state("main.home", { url:"/home", templateUrl:"partials/home.html"})
       .state("main.about", { url:"/about", templateUrl:"partials/about/about.html"})
       .state("main.faq", { url:"/faq", templateUrl:"partials/about/faq.html"})
+      .state("main.constitution", { url:"/constitution", templateUrl:"partials/about/constitution.html"})
       .state("main.house", { url:"/house", templateUrl:"partials/house/house.html"})
       .state("main.door_code", { url:"/door_code", templateUrl:"partials/house/door_code.html"})
       .state("main.book_house", { url:"/book_house", templateUrl:"partials/house/book_house.html"})
