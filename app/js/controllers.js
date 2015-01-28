@@ -45,11 +45,21 @@ ecsaControllers.controller('tabController', function($rootScope, $scope, $state,
                     subTab.active = $scope.active(subTab.route);
                     if(subTab.active) {
                         tab.active = true;
-                   }; 
+                   }
                 });
-            }       
+            }
 	});
     });
-    
-    
+});
+
+ecsaControllers.controller('updateController', function($scope, $http) {
+    $http({method: 'GET', url: 'json/executives.json'}).
+        success(function(data) {
+            $scope.executives = data;
+        });
+
+    $scope.save = function() {
+        //TODO
+        console.log("SAVED");
+    };
 });
