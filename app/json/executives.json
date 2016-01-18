@@ -3,14 +3,14 @@
     "position": "President",
     "fullName": "Cody Flatla",
     "email": "presidentofecsa@gmail.com",
-    "bio": "",
+    "bio": "Cody is in his final year of a BSc Specialization in Computing Science. He has been living in ECV for three years now. His hobbies include dodgeball, volleyball, Heroes of the Storm, and most things computer.",
     "imageUrl": "img/President.jpg"
   },
   {
     "position": "VP Communication",
     "fullName": "Grace Zhang",
     "email": "ecsacommunication@gmail.com",
-    "bio": "",
+    "bio": "Grace is an international student working on her after degree. She majors in accounting and minors in MIS. After graduation, she plans to complete CPA designation. She lived in Pinecrest for one year, and is now living in Tamarack. As an international student, she believes that the best way to enrich university life is to get involved as much as possible. By being a part of the ECSA executive team she hopes to get to know more people. In her spare time, she likes to stay active by doing Zumba.",
     "imageUrl": "img/VPCommunication.jpg"
   },
   {
@@ -24,7 +24,7 @@
     "position": "VP House",
     "fullName": "Islamul Haque",
     "email": "ecsahouse@gmail.com",
-    "bio": "",
+    "bio": "Islamul is in his fourth and final year of a BSc in Chemical Engineering. He has been living in ECV for 2 years now. His hobbies include watching anime, movies, games, swimming, travelling and making new friends.",
     "imageUrl": "img/VPHouse.jpg"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "position": "VP Volunteers",
-    "fullName": "Jessica Tromposch",
+    "fullName": "TBD",
     "email": "ecsavolunteers@gmail.com",
     "bio": "",
     "imageUrl": "img/VPVolunteers.jpg"
