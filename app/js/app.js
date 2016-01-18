@@ -30,6 +30,5 @@ ecsaApp.config(
       .state("main.contact", { url:"/contact", templateUrl:"partials/contact/contact.html"})
       .state("main.social_media", { url:"/social_media", templateUrl:"partials/contact/social_media.html"})
       .state("main.comments", { url:"/comments", templateUrl:"partials/contact/comments.html"})
-      .state("main.links", { url:"/links", templateUrl:"partials/contact/links.html"})
-      .state("main.update", { url:"/update_contacts", templateUrl:"partials/update_contacts.html"});
+      .state("main.links", { url:"/links", templateUrl:"partials/contact/links.html"});
   });
