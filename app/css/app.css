@@ -339,8 +339,7 @@ ul#menu:after {
 }
 
 .thumb {
-    height: 200px;
-    width: 200px;
+    height: 200px; /* Specifying only height maintains aspect ratio while scaling */
     float: left;
 }
 
